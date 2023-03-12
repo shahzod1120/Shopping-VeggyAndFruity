@@ -1,0 +1,25 @@
+.basket{
+    max-height: 80vh;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px green; 
+        border-radius: 10px;
+      }
+       
+      &::-webkit-scrollbar-thumb {
+        background: green; 
+        border-radius: 10px;
+      }
+    
+      &::-webkit-scrollbar-thumb:hover {
+        background: green; 
+      }
+    table{
+        overflow: hidden;
+        max-height: 95%;
+    }
+}

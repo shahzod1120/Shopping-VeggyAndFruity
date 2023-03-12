@@ -1,0 +1,11 @@
+a {
+    &:hover:not(.tel) {
+        background: #3dbf9bc7 !important;
+    }
+
+    i {
+        &:hover {
+            color: black !important;
+        }
+    }
+}

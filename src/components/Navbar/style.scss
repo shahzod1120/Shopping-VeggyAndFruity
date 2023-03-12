@@ -1,0 +1,64 @@
+nav {
+    padding: 0px !important;
+    .container-fluid {
+        padding: 10px 0px;
+        background-color: #a9ebab;
+        form {
+            margin: 0px 20px;
+
+            .btn-group {
+                width: 70% !important;
+
+                input {
+                    width: 100%;
+                    color: green;
+
+                    &:focus {
+                        box-shadow: none !important;
+                    }
+
+                    &::placeholder {
+                        font-size: 14px;
+                    }
+
+                    &:focus-visible {
+                        outline: none;
+                    }
+                }
+
+                button {
+                    min-width: 20% !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    nav {
+        .container-fluid {
+            form {
+                .btn-group {
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 577px) {
+    nav {
+        .container-fluid {
+            padding: 0px 10px !important;
+
+            .form-sm {
+                margin: 20px 0px 10px !important;
+                width: 100% !important;
+
+                .btn-group {
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+}

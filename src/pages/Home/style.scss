@@ -1,0 +1,41 @@
+.sliders {
+    height: 65vh;
+    width: 100%;
+
+    .carousel {
+        height: 100% !important;
+
+        .carousel-inner {
+            height: 100% !important;
+
+            .carousel-item {
+                height: 100% !important;
+
+                img {
+                    height: 100% !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:992px) {
+    .sliders {
+        .carousel {
+            .carousel-inner {
+                height: calc(100% + 120px) !important;
+
+            }
+        }
+    }
+}
+@media screen and (max-width:992px) {
+    .sliders {
+        height: 500px !important;
+    }
+}
+@media screen and (max-width:767px) {
+    .sliders {
+        height: 220px !important;
+    }
+}
